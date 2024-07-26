@@ -1,0 +1,30 @@
+.section-advantages_title{
+    margin-bottom: 62px;
+    padding-top: 104px;
+    text-align: center;
+    font-weight: 400;
+font-size: 30px;
+color: #606060;
+}
+.section-advantages_number-list{
+    display: flex;
+    gap: 62px;
+    margin-bottom: 118px;
+}
+.section-advantages_number-list_item{
+    font-weight: 500;
+font-size: 25px;
+color: #555;
+}
+.section-advantages_list{
+    display: flex;
+    gap: 20px;
+}
+.section-advantages_list_item_img{}
+.section-advantages_list_item_p{
+    font-weight: 300;
+color: #000;
+font-size: 14px;
+line-height: 100%;
+text-align: center;
+}
