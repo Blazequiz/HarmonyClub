@@ -9,3 +9,9 @@
   --font7: "Rochester", sans-serif;
   --font8: "Metrophobic", sans-serif;
 } 
+.container {
+  width: 1200px;
+  outline: 2px dashed slateblue;
+  padding: 0 15px;
+  margin: 0 auto;
+}

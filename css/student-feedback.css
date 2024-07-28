@@ -1,0 +1,25 @@
+.section-student_feedback {
+  padding-top: 113px;
+  padding-bottom: 108px;
+  background-color: rgb(210, 244, 247);
+  background-image: url(../images/clouds-decorative-img-students-feedback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-student_feedback_title {
+  margin-bottom: 102px;
+  text-align: center;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  color: #000;
+}
+.section-student_feedback_list {
+  margin-bottom: 159px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}

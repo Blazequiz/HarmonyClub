@@ -9,12 +9,15 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
   <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/tarrifs-section.css">
+  <link rel="stylesheet" href="./css/student-feedback.css">
   <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/advantages.css">
+  <link rel="stylesheet" href="./css/common.css">
 </head>
 <body>
+  <!-- header -->
   <header class="header">
     <div class="container">
         <nav>
@@ -42,7 +45,9 @@
         </ul>
     </div>
 </header>
+  <!-- main -->
 <main>
+  <!-- hero-section -->
     <section class="hero-section">
         <div class="container">
             <h1 class="hero-section_title">Provide <br><span class="hero-section_title_span">your child with<br>a creative future</span></h1>
@@ -59,6 +64,7 @@
             <img src="" alt="people-teacher" class="hero-section_img">
         </div>
     </section>
+    <!-- section-what_we_teacah -->
     <section class="section-what_we_teach">
         <div class="container">
             <ul class="section-what_we_teach_img-list">
@@ -111,7 +117,7 @@
             </ul>
         </div>
     </section>
-    <!--  -->
+    <!-- section-advantages -->
     <section class="section-advantages">
       <h2 class="section-advantages_title">Our advantages</h2>
       <ol class="section-advantages_number-list">
@@ -152,7 +158,7 @@
           </li>
       </ul>
   </section>
-<!--  -->
+<!-- section_customer_testimonials-->
 <section class="customer_testimonials">
   <h2 class="customer_testimonials_title">Customer testimonials</h2>
   <p class="customer_testimonials-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -190,74 +196,90 @@
         <div class="circle"></div>
       </div>
 </section>
+<!-- section-student_feedback -->
 <section class="section-student_feedback">
     <div class="container">
       <h2 class="section-student_feedback_title">
         What our students say
       </h2>
       <ul class="section-student_feedback_list">
-        <li class="section-student_feedback_list_item"><img src="" alt="our-student" class="section-student_feedback_list_item_img"></li>
-        <li class="section-student_feedback_list_item"><img src="" alt="our-student" class="section-student_feedback_list_item_img"></li>
-        <li class="section-student_feedback_list_item"><img src="" alt="our-student" class="section-student_feedback_list_item_img"></li>
-        <li class="section-student_feedback_list_item"><img src="" alt="our-student" class="section-student_feedback_list_item_img"></li>
+        <li class="section-student_feedback_list_item"><img src="./images/first-studen-feedback-section.png" alt="our-student" class="section-student_feedback_list_item_img"></li>
+        <li class="section-student_feedback_list_item"><img src="./images/second-student-feedback-section.png" alt="our-student" class="section-student_feedback_list_item_img"></li>
+        <li class="section-student_feedback_list_item"><img src="./images/third-student-feedback-section.png" alt="our-student" class="section-student_feedback_list_item_img"></li>
+        <li class="section-student_feedback_list_item"><img src="./images/fourth-student-feedback-section.png" alt="our-student" class="section-student_feedback_list_item_img"></li>
       </ul>
       <div>
-        <div><!--  Я трохи не розумію, що це за елементи тому можеш їм будь ласка сам класи задать -->
-          <div></div>
-          <div></div>
+        <div class="section-student_feedback-wrapper">
+          <div class="slider"></div>
+          <div class="decorative-slider-line"></div>
         </div>
         <div class="section-student_feedback_div"><button class="section-student_feedback_div_button"><img src="" alt="left-arrow" class="section-student_feedback_div_button_img"></button></div>
-        <div class="section-student_feedback_div"><button class="section-student_feedback_div_button"><img src="" alt="left-arrow" class="section-student_feedback_div_button_img"></button></div>
+        <div class="section-student_feedback_div"><button class="section-student_feedback_div_button"><img src="" alt="right-arrow" class="section-student_feedback_div_button_img"></button></div>
       </div>
 </section>
+  <!-- section-tariffs -->
 <section class="section-tariffs">
-      <h2 class="section-tariffs_title">
-        Tariffs
-      </h2>
-      <ul class="section-tariffs_list">
-        <li class="section-tariffs_list_item">
-          <img src="" alt="" class="section-tariffs_list_item_img">
-          <div class="section-tariffs_list_item_div">
-            <h3 class="section-tariffs_list_item_div_title">training for a year</h3>
-            <p class="section-tariffs_list_item_div_description">suitable for people with limited funds</p>
-          </div>
-          <button class="section-tariffs_list_item_button">Get started</button>
-        </li>
-        <li class="section-tariffs_list_item">
-          <img src="" alt="">
-          <div class="section-tariffs_list_item_div">
-            <h3 class="section-tariffs_list_item_div_title">training for 2 years</h3>
-            <p class="section-tariffs_list_item_div_description">for people who want to try themselves</p>
-          </div>
-          <button class="section-tariffs_list_item_button">Get started</button>
-        </li>
-        <li class="section-tariffs_list_item">
-          <img src="" alt="">
-          <div class="section-tariffs_list_item_div">
-            <h3 class="section-tariffs_list_item_div_title">training for 3 years</h3>
-            <p class="section-tariffs_list_item_div_description">for people who are confident in themselves</p>
-          </div>
-          <button class="section-tariffs_list_item_button">Get started</button>
-        </li>
-        <li class="section-tariffs_list_item">
-          <img src="" alt="">
-          <div class="section-tariffs_list_item_div">
-            <h3 class="section-tariffs_list_item_div_title">training for 4 years</h3>
-            <p class="section-tariffs_list_item_div_description">for people who want to develop in this field</p>
-          </div>
-          <button class="section-tariffs_list_item_button">Get started</button>
-        </li>
-        <li class="section-tariffs_list_item">
-          <img src="" alt="">
-          <div class="section-tariffs_list_item_div">
-            <h3 class="section-tariffs_list_item_div_title">training for 5 years</h3>
-            <p class="section-tariffs_list_item_div_description">sfor self-confident people</p>
-          </div>
-          <button class="section-tariffs_list_item_button">Get started</button>
-        </li>
-      </ul>
-    </div>
+      <div class="container">
+        <div class="section-tariffs-title-wrapper">
+          <h2 class="section-tariffs_title">
+            Tariffs
+          </h2>
+        </div>
+        <ul class="section-tariffs_list">
+          <li class="section-tariffs_list_first-item tariffs-item">
+            <img src="./images/one-star-img.png" alt="one-star-img" class="star-img">
+            <div class="section-tariffs_list_item_div">
+              <h3 class="section-tariffs_list_item_div_title-first tariff-section-h2">training for a year</h3>
+              <p class="section-tariffs_list_item_div_description-first tariff-section-p">suitable for people with limited funds</p>
+            </div>
+            <img src="./images/first-tariff-img.png" alt="first-tariff-img" class="tariff-img">
+            <button class="section-tariffs_list_item_button first-btn">Get started</button>
+          </li>
+          <!--  -->
+          <li class="section-tariffs_list_second-item tariffs-item">
+            <img src="./images/two-stars-img.png" alt="star-img" class="star-img">
+            <div class="section-tariffs_list_item_div">
+              <h3 class="section-tariffs_list_item_div_title-second tariff-section-h2">training for 2 years</h3>
+              <p class="section-tariffs_list_item_div_description-second tariff-section-p">for people who want to try themselves</p>
+            </div>
+            <img src="./images/second-tariff-img.png" alt="first-tariff-img" class="tariff-img">
+            <button class="section-tariffs_list_item_button second-btn">Get started</button>
+          </li>
+          <!--  -->
+          <li class="section-tariffs_list_third-item tariffs-item">
+            <img src="./images/three-stars-img.png" alt="star-img" class="star-img">
+            <div class="section-tariffs_list_item_div">
+              <h3 class="section-tariffs_list_item_div_title-third tariff-section-h2">training for 3 years</h3>
+              <p class="section-tariffs_list_item_div_description-third tariff-section-p">for people who are confident in themselves</p>
+            </div>
+            <img src="./images/third-tariff-img.png" alt="first-tariff-img" class="tariff-img">
+            <button class="section-tariffs_list_item_button third-btn">Get started</button>
+          </li>
+          <!--  -->
+          <li class="section-tariffs_list_fourth-item tariffs-item">
+            <img src="./images/four-stars-img.png" alt="star-img" class="star-img">
+            <div class="section-tariffs_list_item_div">
+              <h3 class="section-tariffs_list_item_div_title-fourth tariff-section-h2">training for 4 years</h3>
+              <p class="section-tariffs_list_item_div_description-fourth tariff-section-p">for people who want to develop in this field</p>
+            </div>
+            <img src="./images/fourth-tariff-img.png" alt="first-tariff-img" class="tariff-img">
+            <button class="section-tariffs_list_item_button fourth-btn">Get started</button>
+          </li>
+          <!--  -->
+          <li class="section-tariffs_list_fivth-item tariffs-item">
+            <img src="./images/five-stars-img.png" alt="star-img" class="star-img">
+            <div class="section-tariffs_list_item_div">
+              <h3 class="section-tariffs_list_item_div_title-fivth tariff-section-h2">training for 5 years</h3>
+              <p class="section-tariffs_list_item_div_description-fivth tariff-section-p">sfor self-confident people</p>
+            </div>
+            <img src="./images/fivth-tariff-img.png" alt="first-tariff-img" class="tariff-img">
+            <button class="section-tariffs_list_item_button fivth-btn">Get started</button>
+          </li>
+        </ul>
+      </div>
+      </div>
   </section>
+  <!-- section-become_a_member -->
   <section class="section-become_a_member">
     <div class="container">
       <h2 class="section-become_a_member_title">
@@ -290,6 +312,7 @@
     </div>
 </section>
 </main>
+<!-- footer -->
 <footer class="footer">
     <div>
       <a href="./index.html" class="footer_logo">Harmony<span class="footer_logo_span">Hub</span></a>
