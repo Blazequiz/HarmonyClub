@@ -9,7 +9,8 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
   <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="./css/tarrifs-section.css">
+  <link rel="stylesheet" href="./css/become-member.css">
+  <link rel="stylesheet" href="./css/tarrifs-section.css">
   <link rel="stylesheet" href="./css/student-feedback.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
@@ -285,30 +286,39 @@
       <h2 class="section-become_a_member_title">
         Become a member?
       </h2>
-      <form action="sign_up_form" class="section-become_a_member_form">
-        <label>
-          <input type="text" name="name" class="section-become_a_member_input">
-        </label>
-        <label>
-          <input type="text" name="surname" class="section-become_a_member_input">
-        </label>
-        <label for="">
-          <input type="email" name="email" class="section-become_a_member_input">
-        </label>
-        <label>
-          <input type="password" name="password" class="section-become_a_member_input">
-        </label>
-        <label>
-          <input type="text" name="city" class="section-become_a_member_input">
-        </label>
-        <label>
-          <input type="text" name="street" class="section-become_a_member_input">
-        </label>  
-        <label>
-          <textarea name="text" id="feedback" class="section-become_a_member_textarea"></textarea>
-        </label>
-        <button  class="section-become_a_member_button">Register</button>
+      <form action="sign_up_form"  class="section-become_a_member_form">
+        <div class="m-btm-div">
+          <label>
+            <input type="text" name="name" placeholder="Your name..." required class="section-become_a_member_input">
+          </label>
+        </div>
+          <div class="m-btm-div">
+            <label>
+              <input type="text" name="surname" placeholder="Your surname..." required class="section-become_a_member_input">
+            </label>
+          </div>
+          <div>
+            <label for="">
+              <input type="email" name="email" placeholder="Your email..." required class="section-become_a_member_input">
+            </label>
+          </div>
+          <div class="m-btm-div">
+            <label>
+              <input type="password" name="password" placeholder="Password..." required class="section-become_a_member_input">
+            </label>
+          </div>
+          <div class="m-btm-div">
+            <label>
+              <input type="text" name="city" placeholder="Your city..." required class="section-become_a_member_input">
+            </label>
+          </div>
+            <div>
+              <label>
+                <input type="text" name="street" placeholder="Your street..." required class="section-become_a_member_input">
+              </label>  
+            </div>
       </form>
+      <button class="section-become_a_member-btn">Register</button>
     </div>
 </section>
 </main>
