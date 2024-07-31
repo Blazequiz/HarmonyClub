@@ -1,0 +1,64 @@
+.section-become_a_member {
+  padding-top: 113px;
+  padding-bottom: 208px;
+  background-image: linear-gradient(rgba(217, 217, 217, 0.5), rgba(217, 217, 217, 0.5)),
+  url(../images/become-member-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-become_a_member_title {
+  margin-bottom: 57px;
+  font-family: var(--font3);
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  color: #f9f9f9;
+}
+/* form  */
+.section-become_a_member_form {
+  margin-bottom: 93px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.m-btm-div {
+  margin-bottom: 40px;
+}
+.section-become_a_member_input {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 34px;
+  font-family: var(--font4);
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(32, 32, 32, 0.7);
+  width: 437px;
+  border-radius: 30px;
+  background-color:  #d6e9ff;
+  border: none;
+}
+.section-become_a_member_button {
+  border: none;
+  font-family: var(--font4);
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  background: #202328;
+  border-radius: 90px;
+  height: 78px;
+}
+.section-become_a_member-btn {
+  padding: 18px 92px;
+  display: block;
+  margin: 0 auto;
+  font-family: var(--font4);
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  background: #202328;
+  border-radius: 90px;
+}
