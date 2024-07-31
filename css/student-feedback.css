@@ -23,3 +23,27 @@
   justify-content: center;
   justify-content: space-between;
 }
+.section-student_feedback-wrapper {
+  display: flex;
+  margin-bottom: 36px;
+  align-items: center;
+  width: 612px;
+  height: 6px;
+  background-color: #c2e2f7;
+  margin-right: auto;
+  margin-left: auto;
+}
+.slider {
+  border-radius: 5px;
+  width: 137px;
+  height: 10px;
+  background-color: #9ad8ff;.
+}
+.section-student_feedback_div_button {
+  border: none;
+  background-color: transparent;
+}
+.div-svg-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
