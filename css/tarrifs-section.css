@@ -157,3 +157,8 @@
 .tariff-img {
   margin-bottom: 40px;
 }
+/* btn`s */
+.div-btn-tarrifs-section {
+  display: flex;
+  justify-content: center;
+}
