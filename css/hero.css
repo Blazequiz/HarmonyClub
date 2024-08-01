@@ -1,0 +1,61 @@
+    .hero-section_title {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 45px;
+    color: #000;
+    margin-bottom: 11px;
+}
+.hero-section_description {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 19px;
+}
+.hero-section_list {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 33px;
+}
+.hero-section_list_item_button {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    background: transparent;
+    border-radius: 14px;
+    border: 2px solid #000;
+}
+.hero-section_list_item_button:hover {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    background: #000;
+}
+.buy {
+    padding: 9px 41px;
+}
+.learn_more {
+    padding: 7px 50px 12px 51px;
+}
+.hero-section_p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+}
+.hero-section_img {
+    padding-top: 229px;
+}
+.hero_div {
+    padding-top: 296px;
+}
+.hero-section {
+    background-image: url("/images/hero-bg.png");
+    background-position: right;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    
+}
