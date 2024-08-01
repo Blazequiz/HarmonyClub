@@ -1,0 +1,47 @@
+.flex{
+    display: flex;
+  }
+.customer_testimonials{
+    background-color: #F5F5F5;
+}
+.customer_testimonials_container{
+    padding-top: 96px;
+    padding-bottom: 62px;
+}
+.customer_testimonials_title{
+    margin-bottom: 22px;
+    text-align: center;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+.customer_testimonials-description{
+    margin-bottom: 118px;
+    text-align: center;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 26px;
+    color: #000;
+}
+.customer_testimonials_list{
+display: flex;
+justify-content: center;
+gap: 32px;
+flex-basis: calc((100% - 64px) / 3);
+}
+.customer_testimonials_list_item{
+    width: 351px;
+    height: 260px;
+    border: 3px solid #cdcdcd;
+}
+.customer_testimonials_list_item_svg{
+    margin-bottom: 32px;
+}
+.customer_testimonials_list_item_p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+color: #000;
+margin-bottom: 32px;
+}

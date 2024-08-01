@@ -9,13 +9,14 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
   <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/become-member.css">
   <link rel="stylesheet" href="./css/tarrifs-section.css">
   <link rel="stylesheet" href="./css/student-feedback.css">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/advantages.css">
-  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/customer_testimonials.css">
 </head>
 <body>
   <!-- header -->
@@ -120,7 +121,12 @@
     </section>
     <!-- section-advantages -->
     <section class="section-advantages">
+      <div class="section-advantages_container container">
+      <div class="section-advantages_div">
+        <img src="" alt="" class="section-advantages_img-line">
       <h2 class="section-advantages_title">Our advantages</h2>
+      <img src="" alt="" class="section-advantages_img-line">
+    </div>
       <ol class="section-advantages_number-list">
           <li class="section-advantages_number-list_item">The institution's objective is to equip students with the
               requisite knowledge and skills to become a duly qualified specialist in their chosen field,
@@ -138,63 +144,79 @@
       <ul class="section-advantages_list">
           <li class="section-advantages_list_item"><img src="./images/mazzucato.svg" alt="mazzucato_legnami"
                   class="section-advantages_list_item_img">
-              <p class="section-advantages_list_item_p"><strong>Mazzucato Legnami</strong> - Italian timber producer, the
+              <p class="section-advantages_list_item_p"><span class="section-advantages_list_item_p_span">Mazzucato Legnami</span> - Italian timber producer, the
                   largest timber producer in Europe.</p>
           </li>
           <li class="section-advantages_list_item"><img src="./images/fanfani.svg" alt="andrea_fanfani"
                   class="section-advantages_list_item_img">
-              <p class="section-advantages_list_item_p"><strong>Andrea Fanfani</strong> creates unique handmade Italian
+              <p class="section-advantages_list_item_p"><span class="section-advantages_list_item_p_span">Andrea Fanfani</span> creates unique handmade Italian
                   furniture as an extension of your unique interior.</p>
           </li>
           <li class="section-advantages_list_item"><img src="./images/intel.svg" alt="intel"
                   class="section-advantages_list_item_img">
-              <p class="section-advantages_list_item_p"><strong>Intel</strong> - This is one of the most popular companies
+              <p class="section-advantages_list_item_p"><span class="section-advantages_list_item_p_span">Intel</span> - This is one of the most popular companies
                   at the moment, it is famous for its quality, reliability and availability of spare parts.</p>
           </li>
           <li class="section-advantages_list_item"><img src="./images/yamaha.svg" alt="yamaha"
                   class="section-advantages_list_item_img">
-              <p class="section-advantages_list_item_p"><strong>YAMAHA</strong> - The Japanese multinational company, the
+              <p class="section-advantages_list_item_p"><span class="section-advantages_list_item_p_span">YAMAHA</span> - The Japanese multinational company, the
                   largest manufacturer of musical instruments, is also engaged in the production of acoustic
                   systems, sound equipment and sports equipment.</p>
           </li>
       </ul>
+    </div>
   </section>
 <!-- section_customer_testimonials-->
 <section class="customer_testimonials">
+  <div class="customer_testimonials_container container">
   <h2 class="customer_testimonials_title">Customer testimonials</h2>
   <p class="customer_testimonials-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
   <ul class="customer_testimonials_list">
-      <li class="customer_testimonials_list_item"><img src="./images/star.svg" alt="star"/>
+      <li class="customer_testimonials_list_item"><svg width="156.93px" height="24.28" class="customer_testimonials_list_item_svg" ><use href=""></use></svg>
              
           <p class="customer_testimonials_list_item_p">"Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
-          </p><img src="./images/sebastian_blackwood.svg" alt="men_in_jacket_with_a_cup_of_coffe"
+          </p>
+          <div class="flex"><img src="./images/sebastian_blackwood.svg" alt="men_in_jacket_with_a_cup_of_coffe"
               class="customer_testimonials_list_item_img">
+              <div>
           <h4 class="customer_testimonials_list_item_h4">Sebastian Blackwood</h4>
           <p class="customer_testimonials_list_item_h4-p">Manager, Aetheris</p>
+        </div>
+        </div>
       </li>
-      <li class="customer_testimonials_list_item"><img src="./images/star.svg" alt="star"/>
+      <li class="customer_testimonials_list_item"><svg width="156.93px" height="24.28" class="customer_testimonials_list_item_svg" ><use href=""></use></svg>
               
           <p class="customer_testimonials_list_item_p">"Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
-          </p><img src="./images/jasper_hawthorne.svg" alt="man_in_a_shirt"
+          </p>
+          <div class="flex"><img src="./images/jasper_hawthorne.svg" alt="man_in_a_shirt"
               class="customer_testimonials_list_item_img">
+              <div>
           <h4 class="customer_testimonials_list_item_h4">Jasper Hawthorne
           </h4>
           <p class="customer_testimonials_list_item_h4-p">Product Manager, Solstice</p>
+        </div>
+        </div>
       </li>
-      <li class="customer_testimonials_list_item"><img src="./images/star.svg" alt="star"/>      
+      <li class="customer_testimonials_list_item"><svg width="156.93px" height="24.28" class="customer_testimonials_list_item_svg" ><use href=""></use></svg>      
           <p class="customer_testimonials_list_item_p">"Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
-          </p><img src="./images/seraphina_winters.svg" alt="women_in_glasses"
+          </p>
+          <div class="flex"><img src="./images/seraphina_winters.svg" alt="women_in_glasses"
               class="customer_testimonials_list_item_img">
+            <div>
           <h4 class="customer_testimonials_list_item_h4">Seraphina Winters</h4>
           <p class="customer_testimonials_list_item_h4-p">Designer, Aetheris</p>
+        </div>
+      </div>
       </li>
   </ul>
+  <div class="flex">
         <div class="darcker-circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
+      </div>
       </div>
 </section>
 <!-- section-student_feedback -->
