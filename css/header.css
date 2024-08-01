@@ -1,0 +1,83 @@
+header {
+    padding-top: 33px;
+    padding-bottom: 23px;
+    border-bottom: solid 11px #e7e7e7;
+}
+.header_logo {
+    font-family: var(--font5);
+    font-weight: 500;
+    font-size: 30px;
+    color: #787878;  
+}
+.header_logo_span {
+    color: #000;
+}
+.header_logo_div {
+    margin-right: 145px;
+}
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.nav_link {
+    display: flex;
+    font-family: var(--font5);
+    font-weight: 500;
+    font-size: 15px;
+    color: #dbdbdb;
+}
+.nav_list {
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+.nav_list_item {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #b9b9b9;
+    height: 30px;
+}
+.nav_list_item_link:hover {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+}
+
+.nav_button-list {
+    display: flex;
+    margin-left: auto;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav_button-list_item_button {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    border: 1px solid #000;
+    background: transparent;
+    
+}
+.sign_up {
+    width: 107px;
+}
+.login {
+    width: 95px;
+}
+.nav_button-list_item_button:hover {
+    font-family: var(--font3);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border: 2px solid #000;
+}
