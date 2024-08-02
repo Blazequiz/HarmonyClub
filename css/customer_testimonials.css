@@ -51,3 +51,15 @@ font-size: 16px;
 color: #000;
 margin-bottom: 32px;
 }
+.circles{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+.darcker-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #A4A4A4;  
+}
