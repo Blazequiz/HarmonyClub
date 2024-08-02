@@ -17,12 +17,14 @@
     color: #000;
 }
 .customer_testimonials-description{
+    display: block;
     margin-bottom: 118px;
     text-align: center;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 26px;
     color: #000;
+    text-align: center;
 }
 .customer_testimonials_list{
 display: flex;
@@ -34,6 +36,10 @@ flex-basis: calc((100% - 64px) / 3);
     width: 351px;
     height: 260px;
     border: 3px solid #cdcdcd;
+}
+.customer_testimonials_list_item_img{
+    padding-left: 26px;
+    padding-right: 2px;
 }
 .customer_testimonials_list_item_svg{
     margin-bottom: 32px;
