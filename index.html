@@ -23,11 +23,11 @@
 </head>
 <body>
   <!-- header -->
-  <header class="header flex">
-    <div class="container">
-        <nav class="header-nav">
+  <header class="header">
+    <div class="container flex">
+        <nav class="header_nav">
             <a href="./index.html">
-              <img src="./images/logo.png" alt="logo">
+              <img src="./images/logo.png" alt="logo" class="header_logo">
             </a>
             <ul class="nav_list">
                 <li class="nav_list_item">
@@ -43,19 +43,20 @@
         </nav>
         <ul class="nav_button-list">
             <li class="nav_button-list_item">
-                <button class="nav_button-list_item_button">Sign Up</button>
+                <button class="nav_button-list_item_button sign_up">Sign Up</button>
             </li>
-            <li class="nav_button-list">
-                <button class="nav_button-list_item_button">Login</button>
+            <li class="nav_button-list_item">
+                <button class="nav_button-list_item_button login">Login</button>
             </li>
         </ul>
     </div>
-</header>
+  </header>
   <!-- main -->
 <main>
   <!-- hero-section -->
     <section class="hero-section">
-        <div class="container">
+        <div class="container flex">
+          <div class="hero_div">
             <h1 class="hero-section_title">Provide <br><span class="hero-section_title_span">your child with<br>a creative future</span></h1>
             <p class="hero-section_description">Our school is based on the development <br> of children in the field of creativity</p>
             <ul class="hero-section_list">
@@ -67,7 +68,11 @@
                 </li>
             </ul>
             <p class="hero-section_p">The institution has been in operation since 2010, during which <br> time it has undergone significant growth and development. This <br> has enabled it to confer degrees upon more than 2000 students. <br> It is possible for any individual to become one of these <br> graduates.</p>
-            <img src="" alt="people-teacher" class="hero-section_img">
+          </div>
+          <div>
+            <img src="./images/teacher.png" alt="people-teacher" class="hero-section_img">
+          </div>
+            
         </div>
     </section>
     <!-- section-what_we_teacah -->
@@ -75,7 +80,7 @@
         <div class="container">
             <ul class="section-what_we_teach_img-list">
                 <li class="section-what_we_teach_img-list_item">
-                    <img src="./images/piano.jpg" alt="student-playing-piano" class="section-what_we_teach_img-list_item_img">
+                    <img src="./images/piano.jpg" alt="student-playing-piano " class="section-what_we_teach_img-list_item_img">
                 </li>
                 <li class="section-what_we_teach_img-list_item">
                     <img src="./images/guitar.jpg" alt="student-playing-guitar" class="section-what_we_teach_img-list_item_img">
@@ -87,9 +92,11 @@
                     <img src="./images/drum.jpg" alt="student-playing-drum" class="section-what_we_teach_img-list_item_img">
                 </li>
             </ul>
-            <img src="" alt="line-left" class="section-what_we_teach_img-line">
-            <img src="" alt="line-right" class="section-what_we_teach_img-line">
-            <h2 class="section-what_we_teach_title">We teach at our school</h2>
+            <div class="section-what_we_teach_div">
+              <img src="./images/line.png" alt="line-left" class="section-what_we_teach_img-line">
+              <h2 class="section-what_we_teach_title">We teach at our school</h2>
+              <img src="./images/line.png" alt="line-right" class="section-what_we_teach_img-line">
+            </div>
             <p class="section-what_we_teach_description">...</p>
             <ul class="section-what_we_teach_list">
                 <li class="section-what_we_teach_list_item">
@@ -120,6 +127,17 @@
                     <h3 class="section-what_we_teach_list_item_title">Violoncello</h3>
                     <p class="section-what_we_teach_list_item_description"><span class="section-what_we_teach_list_item_description_span">teachers</span> 23</p>
                 </li>
+            </ul>
+            <ul class="section-what_we_teach_circle_list">
+              <li class="section-what_we_teach_circle_item">
+                <img src="./images/circle_dark.png" alt="dark-circle">
+              </li>
+              <li class="section-what_we_teach_circle_item">
+                <img src="./images/circle_light.png" alt="light-circle">
+              </li>
+              <li class="section-what_we_teach_circle_item">
+                <img src="./images/circle_light.png" alt="light-circle">
+              </li>
             </ul>
         </div>
     </section>
@@ -217,8 +235,8 @@
   </ul>
   <div class="flex">
         <div class="darcker-circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
+        <div class="circles"></div>
+        <div class="circles"></div>
       </div>
       </div>
 </section>

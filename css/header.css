@@ -4,15 +4,6 @@ header {
     border-bottom: solid 11px #e7e7e7;
 }
 .header_logo {
-    font-family: var(--font5);
-    font-weight: 500;
-    font-size: 30px;
-    color: #787878;  
-}
-.header_logo_span {
-    color: #000;
-}
-.header_logo_div {
     margin-right: 145px;
 }
 .header_nav {

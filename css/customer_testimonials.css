@@ -44,13 +44,3 @@
 .customer_testimonials_list_item_svg{
     margin-bottom: 32px;
 }
-.customer_testimonials_list_item_p{
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: #000;
-    margin-bottom: 32px;
-}
-.star-list {
-    display: flex;
-}
