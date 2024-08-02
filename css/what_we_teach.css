@@ -3,6 +3,10 @@
     gap: 20px;
     justify-content: center;
     margin-top: 139px;
+    
+}
+.section-what_we_teach_img-list_item {
+    box-shadow: 1px 5px 9px 0 rgba(0, 0, 0, 0.54);
 }
 .section-what_we_teach_title {
     display: flex;
