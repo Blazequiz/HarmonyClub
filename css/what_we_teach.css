@@ -11,7 +11,6 @@
     font-weight: 400;
     font-size: 30px;
     color: #93a0b6;
-    margin-top: 70px;
 }
 
 .section-what_we_teach_img-line {
@@ -19,6 +18,7 @@
 }
 .section-what_we_teach_div {
     display: flex;
+    margin-top: 70px;
 }
 .section-what_we_teach_description {
     display: flex;
