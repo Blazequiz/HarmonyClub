@@ -27,10 +27,10 @@
     text-align: center;
 }
 .customer_testimonials_list{
-display: flex;
-justify-content: center;
-gap: 32px;
-flex-basis: calc((100% - 64px) / 3);
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-basis: calc((100% - 64px) / 3);
 }
 .customer_testimonials_list_item{
     width: 351px;
@@ -46,8 +46,11 @@ flex-basis: calc((100% - 64px) / 3);
 }
 .customer_testimonials_list_item_p{
     font-family: var(--second-family);
-font-weight: 400;
-font-size: 16px;
-color: #000;
-margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 32px;
+}
+.star-list {
+    display: flex;
 }
