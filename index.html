@@ -9,6 +9,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
   <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/become-member.css">
   <link rel="stylesheet" href="./css/tarrifs-section.css">
@@ -43,7 +44,7 @@
         </nav>
         <ul class="nav_button-list">
             <li class="nav_button-list_item">
-                <button class="nav_button-list_item_button sign_up">Sign Up</button>
+                <button class="nav_button-list_item_button sign_up" type="button" data-modal-open>Sign Up</button>
             </li>
             <li class="nav_button-list_item">
                 <button class="nav_button-list_item_button login">Login</button>
@@ -419,5 +420,43 @@
     </div>
   </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close close-btn" data-modal-close>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="cross-svg">
+        <rect width="3.23759" height="29.7859" transform="matrix(0.70223 -0.711951 0.70223 0.711951 0 2.30499)" fill="#D9D9D9" />
+        <rect width="3.23759" height="29.7859" transform="matrix(-0.70223 -0.711951 0.70223 -0.711951 2.61426 23.5314)" fill="#D9D9D9" />
+      </svg>
+  </button>
+  <h2 class="form-title"> 
+    CREATE AN ACCOUNT
+  </h2>
+  <!-- form list -->
+  <div class="form-wrapper">
+    <div>
+      <form class="js-forma">
+        <div class="div-form-position">
+          <label class="name-label">
+            <input type="text" name="name"  placeholder="Your email" required class="placeholder-name" />
+          </label>
+        </div>
+        <div class="div-form-position">
+          <label class="phone-label">
+            <input type="tel" name="phone" placeholder="Your adress" required class="placeholder-number" />
+          </label>
+        </div>
+        <div class="div-form-position">
+          <label class="email-label">
+            <input type="password" name="password" required placeholder="Your password" class="placeholder-email" />
+          </label>
+        </div>   
+        <button type="submit" class="submit-btn">CREATE</button>    
+      </form>
+    </div>
+      <div>
+        <img src="./images/modal-teacher-image.png" alt="teacher">
+      </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 </html> 
