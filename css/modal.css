@@ -59,6 +59,14 @@
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 24px;
+  color: #ffffffc2;
+  cursor: pointer;
+  transition: background-color 500ms ease;
+}
+.submit-btn:hover {
+  background-color: #be8553;
+  transition: background-color 500ms ease;
+  transition: color 500ms ease;
   color: #fff;
 }
 /* form js is ended */
@@ -75,6 +83,22 @@
   font-weight: 200;
   font-size: 24px;
   color: #616161;
+  transition: border 500ms ease;
+}
+.placeholder-name:hover,
+.placeholder-name:focus{
+  border: 2px solid #b47b48;
+  transition: border 500ms ease;
+}
+.placeholder-email:hover,
+.placeholder-email:focus {
+  border: 2px solid #b47b48;
+  transition: border 500ms ease;
+}
+.placeholder-number:hover,
+.placeholder-number:focus {
+  border: 2px solid #b47b48;
+  transition: border 500ms ease;
 }
 .js-forma {
   display: flex;
@@ -85,6 +109,7 @@
   position: relative;
   left: 32px;
   background-color: transparent;
+  cursor: pointer;
 }
 .cross-svg {
   position: absolute;
@@ -96,3 +121,24 @@
   align-items: center;
   gap: 70px;
 }
+.error {
+  display: block;
+  margin-top: 5px; 
+  font-size: 12px; 
+  color: red; 
+}
+.error {
+  max-width: 100%;
+  word-wrap: break-word;
+  margin-top: 5px;
+}
+.div-form-position {
+  position: relative; 
+}
+
+.error {
+  position: absolute; 
+  left: 0;
+  top: 100%; 
+}
+

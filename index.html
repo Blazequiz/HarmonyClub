@@ -434,29 +434,30 @@
   <!-- form list -->
   <div class="form-wrapper">
     <div>
-      <form class="js-forma">
+      <form class="js-forma" id="registration">
         <div class="div-form-position">
-          <label class="name-label">
-            <input type="text" name="name"  placeholder="Your email" required class="placeholder-name" />
-          </label>
+          <label class="name-label" for="email"></label>
+          <input type="email" name="email" placeholder="Your email" required class="placeholder-name" id="email"/>
+          <span class="error" id="email-error" style="color: red"></span>
         </div>
         <div class="div-form-position">
-          <label class="phone-label">
-            <input type="tel" name="phone" placeholder="Your adress" required class="placeholder-number" />
-          </label>
+          <label class="phone-label" for="address"></label>
+          <input type="tel" name="phone" placeholder="Your address" required class="placeholder-number" id="address"/>
+          <span class="error" id="address-error" style="color: red"></span>
         </div>
         <div class="div-form-position">
-          <label class="email-label">
-            <input type="password" name="password" required placeholder="Your password" class="placeholder-email" />
-          </label>
+          <label class="email-label" for="password"></label>
+          <input type="password" name="password" required placeholder="Your password" class="placeholder-email" id="password"/>
+          <span class="error" id="password-error" style="color: red"></span>
         </div>   
-        <button type="submit" class="submit-btn">CREATE</button>    
+        <button type="submit" class="submit-btn" value="ready">CREATE</button>    
       </form>
     </div>
-      <div>
-        <img src="./images/modal-teacher-image.png" alt="teacher">
-      </div>
-  </div>
+    <div>
+      <img src="./images/modal-teacher-image.png" alt="teacher">
+    </div>
+  </div>  
   <script src="./js/modal.js"></script>
+  <script src="./js/form-validation.js"></script>
 </body>
 </html> 
