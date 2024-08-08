@@ -134,21 +134,47 @@
   border-radius: 6px;
   color: white;
   border: none;
+  cursor: pointer;
 }
 .first-btn {
   background-color: #809740;
+  transition: background-color 500ms ease;
+}
+.first-btn:hover {
+  background-color: #8097407c;
+  transition: background-color 500ms ease;
 }
 .second-btn {
   background-color: #82a7ee;
+  transition: background-color 500ms ease;
+}
+.second-btn:hover {
+  background-color: #82a8ee79;
+  transition: background-color 500ms ease;
 }
 .third-btn {
   background-color: #fa4f4f;
+  transition: background-color 500ms ease;
+}
+.third-btn:hover {
+  background-color: #fa4f4f7e;
+  transition: background-color 500ms ease;
 }
 .fourth-btn {
   background-color: #ec47f8;
+  transition: background-color 500ms ease;
+}
+.fourth-btn:hover {
+  background-color: #ec47f88a;
+  transition: background-color 500ms ease;
 }
 .fivth-btn {
   background-color: #1eb6df;
+  transition: background-color 500ms ease;
+}
+.fivth-btn:hover {
+  background-color: #1eb5df77;
+  transition: background-color 500ms ease;
 }
 /* tariff and star images */
 .star-img {

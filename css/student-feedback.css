@@ -47,3 +47,11 @@
   display: flex;
   justify-content: center;
 }
+.section-student_feedback_list_item {
+  border: 2px solid transparent;
+  border-radius: 48px;
+}
+.section-student_feedback_list_item:hover {
+  border: 2px solid greenyellow;
+  border-radius: 48px;
+} 
