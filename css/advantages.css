@@ -19,9 +19,10 @@ margin-right: 14px;
 }
 .section-advantages_number-list{
     display: flex;
+    justify-content: space-evenly;
+    max-height: 610px;
+    min-height: 364px;
     gap: 62px;
-    padding-left: 240px;
-    padding-right: 240px;
     margin-bottom: 118px;
     flex-basis: calc((100% - 186px) / 4);
 }

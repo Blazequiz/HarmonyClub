@@ -8,15 +8,27 @@
     font-weight: 500;
     font-size: 30px;
     color: #e9e8e8e0;
+    transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer_logo_span{
     color: #8a8989cb;
+    transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer_logo:hover{
     color: #efefef;
+    transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer_logo:hover .footer_logo_span{
     color: #929292;
+    transition-property: color;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer_p{
     margin-bottom: 28px;
@@ -95,9 +107,15 @@
 }
 .footer_list_item_svg{
     fill: #d7d7d7;
+    transition-property: fill;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer_list_item_svg:hover{
     fill: #70555596;
+    transition-property: fill;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
 }
 .footer-general-div-wrapper {
     display: flex;
