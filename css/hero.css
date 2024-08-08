@@ -52,7 +52,7 @@
     padding-top: 296px;
 }
 .hero-section {
-    background-image: url("/images/hero-bg.png");
+    background-image: url("../images/hero-bg.png");
     background-position: right;
     margin-right: auto;
     margin-left: auto;

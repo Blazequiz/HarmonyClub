@@ -61,7 +61,7 @@
     margin-top: 46px;
 }
 .section-what_we_teach {
-    background-image: url("/images/what-we-teach-bg.png");
+    background-image: url("../images/what-we-teach-bg.png");
     background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
