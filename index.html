@@ -9,6 +9,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
   <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&family=Cormorant+SC:wght@300;400;500;600;700&family=Cormorant+Upright:wght@300;400;500;600;700&family=Encode+Sans:wght@100..900&family=Inter:wght@100..900&family=Metrophobic&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/become-member.css">
   <link rel="stylesheet" href="./css/tarrifs-section.css">
@@ -43,7 +44,7 @@
         </nav>
         <ul class="nav_button-list">
             <li class="nav_button-list_item">
-                <button class="nav_button-list_item_button sign_up">Sign Up</button>
+                <button class="nav_button-list_item_button sign_up" type="button" data-modal-open>Sign Up</button>
             </li>
             <li class="nav_button-list_item">
                 <button class="nav_button-list_item_button login">Login</button>
@@ -149,20 +150,32 @@
       <h2 class="section-advantages_title">Our advantages</h2>
       <img src="./images/Line.svg" alt="line-right" class="section-advantages_img-line">
     </div>
-      <ol class="section-advantages_number-list">
-          <li class="section-advantages_number-list_item">The institution's objective is to equip students with the
+      <ul class="section-advantages_number-list">
+          <li class="section-advantages_number-list_item">
+            <img src="./images/1.svg" alt="1" class="section-advantages_number-list_item_img">
+            <p class="section-advantages_number-list_item_p">
+            The institution's objective is to equip students with the
               requisite knowledge and skills to become a duly qualified specialist in their chosen field,
-              irrespective of its specific nature.</li>
-          <li class="section-advantages_number-list_item">The school is renowned for its exemplary standards of hygiene,
+              irrespective of its specific nature.</p></li>
+          <li class="section-advantages_number-list_item">
+            <img src="./images/2.svg" alt="2" class="section-advantages_number-list_item_img">
+            <p class="section-advantages_number-list_item_p">
+            The school is renowned for its exemplary standards of hygiene,
               which not only foster a conducive learning environment but also contribute to the overall well-being
-              of students.</li>
-          <li class="section-advantages_number-list_item">The teaching staff are approachable and readily available to
-              assist students with both academic matters and personal queries.</li>
-          <li class="section-advantages_number-list_item">The educational establishment in question offers a free-form
+              of students.</p></li>
+          <li class="section-advantages_number-list_item">
+            <img src="./images/3.svg" alt="3" class="section-advantages_number-list_item_img">
+            <p class="section-advantages_number-list_item_p">
+            The teaching staff are approachable and readily available to
+              assist students with both academic matters and personal queries.</p></li>
+          <li class="section-advantages_number-list_item">
+            <img src="./images/4.svg" alt="4" class="section-advantages_number-list_item_img">
+            <p class="section-advantages_number-list_item_p">
+            The educational establishment in question offers a free-form
               curriculum, whereby pupils are permitted to select their own areas of study, ranging from in-depth
               specialisation to more superficial enquiry. It is possible for students to alter their chosen
-              programme of study at any point during their tenure at the school.</li>
-      </ol>
+              programme of study at any point during their tenure at the school.</p></li>
+      </ul>
       <ul class="section-advantages_list">
           <li class="section-advantages_list_item"><img src="./images/mazzucato.svg" alt="mazzucato_legnami"
                   class="section-advantages_list_item_img">
@@ -207,8 +220,7 @@
         </div>
         </div>
       </li>
-      <li class="customer_testimonials_list_item"><svg width="156.93px" height="24.28" class="customer_testimonials_list_item_svg" ><use href=""></use></svg>
-              
+      <li class="customer_testimonials_list_item"><svg width="156.93px" height="24.28" class="customer_testimonials_list_item_svg" ><use href=""></use></svg>     
           <p class="customer_testimonials_list_item_p">"Lorem ipsum dolor sit amet, consectetur adipiscing
               elit. Suspendisse varius enim in<br> eros elementum tristique. Duis cursus, mi<br> quis viverra ornare."
           </p>
@@ -234,7 +246,7 @@
       </div>
       </li>
   </ul>
-  <div class="flex">
+  <div class="circles_div">
         <div class="darcker-circle"></div>
         <div class="circles"></div>
         <div class="circles"></div>
@@ -259,7 +271,7 @@
         </div>
         <div class="div-svg-btn-wrapper">
           <div class="section-student_feedback_div"><button class="section-student_feedback_div_button">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-first">
               <path d="M10 19.6001L31 19.6001" stroke="#5F4242" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
               <path d="M18.3998 11.2L9.99978 19.6L18.3998 28" stroke="#5F4242" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
               <circle cx="20" cy="20" r="18" transform="rotate(-180 20 20)" stroke="#5F4242" stroke-width="4" />
@@ -268,7 +280,7 @@
       </div>
           <div class="section-student_feedback_div">
             <button class="section-student_feedback_div_button">
-              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-second">
                 <path d="M30 20.3999H9" stroke="#5F4242" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M21.6001 28.8L30.0001 20.4L21.6001 12" stroke="#5F4242" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
                 <circle cx="20" cy="20" r="18" transform="rotate(-180 20 20)" stroke="#5F4242" stroke-width="4" />
@@ -382,29 +394,70 @@
 </section>
 </main>
 <!-- footer -->
-<footer class="footer">
+<footer class="footer"> 
   <div class="container">
-    <div class="footer_first-div">
-      <a href="./index.html" class="footer_logo">Harmony<span class="footer_logo_span">Hub</span></a>
-      <p class="footer_p">Online School</p>
-      <h3 class="footer_title">Briefly about us</h3>
-      <p class="footer_description">The objective of our educational establishment is to train competent and professional specialists. Upon graduation, our students are equipped with the requisite skills and knowledge to secure employment and to develop their own party portfolio</p>
-      <p class="footer_description">The school offers excellent value for money. For a reasonable fee, students receive a comprehensive education, conducive learning environments, and highly qualified instructors</p>
-    </div>
-  <img src="./images/Line_another_dsrection.svg" alt="decorative-line" class="footer_decorative-line">
-    <div class="footer_second-div">
-      <h3 class="footer_title">Contact us</h3>
-      <p class="footer_phone_number">020-65723633</p>
-      <h3 class="footer_title">About social media</h3>
-      <p class="footer_description">To remain apprised of the latest developments and observe the evolution of our organisation, we recommend subscribing to our social media channels </p>
-      <ul class="footer_list">
-        <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=e1b7b0b619386de2JmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=%d1%84%d0%be%d0%bd%d0%b4+%d1%81%d0%b5%d1%80%d0%b3%d1%96%d1%8f+%d0%bf%d1%80%d0%b8%d1%82%d1%83%d0%bb%d0%b8&u=a1aHR0cHM6Ly9wcnl0dWxhZm91bmRhdGlvbi5vcmcv&ntb=1" class="footer_list_item_link"><svg width="28" height="18" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-wk_svg"></use></svg></a></li>
-        <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=34e10c3824e35206JmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1" class="footer_list_item_link"><svg width="30" height="30" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-instagram_svg"></use></svg></a></li>
-        <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=f4305f9664b286afJmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE4OA&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1" class="footer_list_item_link"><svg width="25" height="25" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-facebook_svg"></use></svg></a></li>
-        <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=84bad3a4a95229efJmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE4OQ&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1" class="footer_list_item_link"><svg width="26" height="21" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-twitter_svg"></use></svg></a></li>
-      </ul>
+    <div class="footer-general-div-wrapper">
+      <div class="footer_first-div">
+        <a href="./index.html" class="footer_logo">Harmony<span class="footer_logo_span">Hub</span></a>
+        <p class="footer_p">Online School</p>
+        <h3 class="footer_title_first">Briefly about us</h3>
+        <p class="footer_description_first">The objective of our educational establishment is to train competent and professional specialists. Upon graduation, our students are equipped with the requisite skills and knowledge to secure employment and to develop their own party portfolio</p>
+        <p class="footer_description_second">The school offers excellent value for money. For a reasonable fee, students receive a comprehensive education, conducive learning environments, and highly qualified instructors</p>
+      </div>
+      <img src="./images/Line_another_dsrection.svg" alt="decorative-line" class="footer_decorative-line">  
+      <div class="footer_second-div">
+        <h3 class="footer_title_second">Contact us</h3>
+        <p class="footer_phone_number">020-65723633</p> 
+        <h3 class="footer_title_third">About social media</h3>
+        <p class="footer_description_third">To remain apprised of the latest developments and observe the evolution of our organisation, we recommend subscribing to our social media channels </p>
+        <ul class="footer_list">
+          <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=e1b7b0b619386de2JmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTIwMQ&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=%d1%84%d0%be%d0%bd%d0%b4+%d1%81%d0%b5%d1%80%d0%b3%d1%96%d1%8f+%d0%bf%d1%80%d0%b8%d1%82%d1%83%d0%bb%d0%b8&u=a1aHR0cHM6Ly9wcnl0dWxhZm91bmRhdGlvbi5vcmcv&ntb=1" class="footer_list_item_link"><svg width="28" height="18" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-wk_svg"></use></svg></a></li>
+          <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=34e10c3824e35206JmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE5Mg&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1" class="footer_list_item_link"><svg width="30" height="30" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-instagram_svg"></use></svg></a></li>
+          <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=f4305f9664b286afJmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE4OA&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1" class="footer_list_item_link"><svg width="25" height="25" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-facebook_svg"></use></svg></a></li>
+          <li class="footer_list_item"><a href="https://www.bing.com/ck/a?!&&p=84bad3a4a95229efJmltdHM9MTcyMjQ3MDQwMCZpZ3VpZD0zZjIyMzkzNS1iYjhhLTZkYWYtMDNmOS0yYmZiYmE2ZDZjYmYmaW5zaWQ9NTE4OQ&ptn=3&ver=2&hsh=3&fclid=3f223935-bb8a-6daf-03f9-2bfbba6d6cbf&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8&ntb=1" class="footer_list_item_link"><svg width="26" height="21" class="footer_list_item_svg"><use href="./images/symbol-defs.svg#icon-twitter_svg"></use></svg></a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </footer>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close close-btn" data-modal-close>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="cross-svg">
+        <rect width="3.23759" height="29.7859" transform="matrix(0.70223 -0.711951 0.70223 0.711951 0 2.30499)" fill="#D9D9D9" />
+        <rect width="3.23759" height="29.7859" transform="matrix(-0.70223 -0.711951 0.70223 -0.711951 2.61426 23.5314)" fill="#D9D9D9" />
+      </svg>
+  </button>
+  <h2 class="form-title"> 
+    CREATE AN ACCOUNT
+  </h2>
+  <!-- form list -->
+  <div class="form-wrapper">
+    <div>
+      <form class="js-forma" id="registration">
+        <div class="div-form-position">
+          <label class="name-label" for="email"></label>
+          <input type="email" name="email" placeholder="Your email" required class="placeholder-name" id="email"/>
+          <span class="error" id="email-error" style="color: red"></span>
+        </div>
+        <div class="div-form-position">
+          <label class="phone-label" for="address"></label>
+          <input type="tel" name="phone" placeholder="Your address" required class="placeholder-number" id="address"/>
+          <span class="error" id="address-error" style="color: red"></span>
+        </div>
+        <div class="div-form-position">
+          <label class="email-label" for="password"></label>
+          <input type="password" name="password" required placeholder="Your password" class="placeholder-email" id="password"/>
+          <span class="error" id="password-error" style="color: red"></span>
+        </div>   
+        <button type="submit" class="submit-btn" value="ready">CREATE</button>    
+      </form>
+    </div>
+    <div>
+      <img src="./images/modal-teacher-image.png" alt="teacher">
+    </div>
+  </div>  
+  <script src="./js/modal.js"></script>
+  <script src="./js/form-validation.js"></script>
 </body>
-</html>
+</html> 
