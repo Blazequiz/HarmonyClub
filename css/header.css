@@ -30,12 +30,16 @@ header {
     color: #b9b9b9;
     height: 30px;
 }
+.nav_list_item_link {
+    transition: color 500ms ease;
+}
 .nav_list_item_link:hover {
     font-family: var(--font3);
     font-weight: 400;
     font-size: 24px;
     text-align: center;
     color: #000;
+    transition: color 500ms ease;
 }
 
 .nav_button-list {
@@ -55,13 +59,15 @@ header {
     color: #000;
     border: 1px solid #000;
     background: transparent;
-    
+    transition: background 500ms ease;
 }
 .sign_up {
     width: 107px;
+    height: 35px;
 }
 .login {
     width: 95px;
+    height: 35px;
 }
 .nav_button-list_item_button:hover {
     font-family: var(--font3);
@@ -71,4 +77,5 @@ header {
     color: #fff;
     background: #000;
     border: 2px solid #000;
+    transition: background 500ms ease;
 }
