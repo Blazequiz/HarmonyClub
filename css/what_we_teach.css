@@ -6,7 +6,11 @@
     
 }
 .section-what_we_teach_img-list_item {
+    transition: box-shadow 500ms ease;
+}
+.section-what_we_teach_img-list_item:hover {
     box-shadow: 1px 5px 9px 0 rgba(0, 0, 0, 0.54);
+    transition: box-shadow 500ms ease;
 }
 .section-what_we_teach_title {
     display: flex;
