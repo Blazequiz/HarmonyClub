@@ -1,4 +1,6 @@
+
 .hero-section_title {
+
     font-family: var(--second-family);
     font-weight: 500;
     font-size: 45px;
@@ -25,6 +27,7 @@
     background: transparent;
     border-radius: 14px;
     border: 2px solid #000;
+    transition: background 500ms ease;
 }
 .hero-section_list_item_button:hover {
     font-family: var(--second-family);
@@ -32,6 +35,7 @@
     font-size: 30px;
     color: #fff;
     background: #000;
+    transition: background 500ms ease;
 }
 .buy {
     padding: 9px 41px;
@@ -52,10 +56,10 @@
     padding-top: 296px;
 }
 .hero-section {
+
     background-image: url("/images/hero-bg.png");
     background-position: right;
     margin-right: auto;
     margin-left: auto;
     background-repeat: no-repeat;
-    
 }

@@ -1,0 +1,57 @@
+.section-student_feedback {
+  padding-top: 113px;
+  padding-bottom: 108px;
+  background-color: rgb(210, 244, 247);
+  background-image: url(../images/clouds-decorative-img-students-feedback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section-student_feedback_title {
+  margin-bottom: 102px;
+  text-align: center;
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  color: #000;
+}
+.section-student_feedback_list {
+  margin-bottom: 159px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.section-student_feedback-wrapper {
+  display: flex;
+  margin-bottom: 36px;
+  align-items: center;
+  width: 612px;
+  height: 6px;
+  background-color: #c2e2f7;
+  margin-right: auto;
+  margin-left: auto;
+}
+.slider {
+  border-radius: 5px;
+  width: 137px;
+  height: 10px;
+  background-color: #9ad8ff;.
+}
+.section-student_feedback_div_button {
+  border: none;
+  background-color: transparent;
+}
+.div-svg-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.section-student_feedback_list_item {
+  border: 2px solid transparent;
+  border-radius: 48px;
+}
+.section-student_feedback_list_item:hover {
+  border: 2px solid greenyellow;
+  border-radius: 48px;
+} 
