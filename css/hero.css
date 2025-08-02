@@ -1,4 +1,6 @@
-    .hero-section_title {
+
+.hero-section_title {
+
     font-family: var(--second-family);
     font-weight: 500;
     font-size: 45px;
@@ -54,7 +56,8 @@
     padding-top: 296px;
 }
 .hero-section {
-    background-image: url("../images/hero-bg.png");
+
+    background-image: url("/images/hero-bg.png");
     background-position: right;
     margin-right: auto;
     margin-left: auto;

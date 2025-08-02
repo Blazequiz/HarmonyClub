@@ -1,0 +1,66 @@
+.section-what_we_teach_img-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 139px;
+}
+.section-what_we_teach_title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font4);
+    font-weight: 400;
+    font-size: 30px;
+    color: #93a0b6;
+    margin-top: 70px;
+}
+
+.section-what_we_teach_img-line {
+    margin: auto;
+}
+.section-what_we_teach_div {
+    display: flex;
+}
+.section-what_we_teach_description {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font8);
+    font-weight: 400;
+    font-size: 30px;
+    color: #93a0b6;
+    margin-bottom: 67px;
+}
+.section-what_we_teach_list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.section-what_we_teach_list_item_title {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 25px;
+    color: #93a0b6;
+}
+.section-what_we_teach_list_item_description {
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 20px;
+    color: #93a0b6;
+}
+.section-what_we_teach_list_item_description_span {
+    font-weight: 700;
+    color: #404a5b;
+}
+.section-what_we_teach_circle_list {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 46px;
+}
+.section-what_we_teach {
+    background-image: url("/images/what-we-teach-bg.png");
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-left: auto;
+    background-position: bottom;
+    padding-bottom: 104px;
+}
